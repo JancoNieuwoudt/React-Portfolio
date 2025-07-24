@@ -11,7 +11,7 @@ const Skills = () => {
       skills: [
         {
           name: 'C#',
-          level: 85,
+          level: 80,
           experience: '2+ years',
           description: 'Primary language for .NET development, desktop applications, and backend services',
           projects: ['Jukskei Tournament System', 'Desktop Applications'],
@@ -20,7 +20,7 @@ const Skills = () => {
         },
         {
           name: 'JavaScript',
-          level: 80,
+          level: 75,
           experience: '2+ years',
           description: 'Frontend and full-stack web development, React applications',
           projects: ['React Portfolio', 'Web Applications'],
@@ -29,7 +29,7 @@ const Skills = () => {
         },
         {
           name: 'Python',
-          level: 75,
+          level: 70,
           experience: '1+ years',
           description: 'Data analysis, machine learning, and automation scripts',
           projects: ['AI Fatigue Detection System'],
@@ -38,7 +38,7 @@ const Skills = () => {
         },
         {
           name: 'Java',
-          level: 70,
+          level: 60,
           experience: '1+ years',
           description: 'Object-oriented programming and academic projects',
           projects: ['University Assignments'],
@@ -63,7 +63,7 @@ const Skills = () => {
       skills: [
         {
           name: 'React',
-          level: 80,
+          level: 70,
           experience: '1+ years',
           description: 'Modern frontend development with hooks and component architecture',
           projects: ['Portfolio Website', 'Web Applications'],
@@ -72,7 +72,7 @@ const Skills = () => {
         },
         {
           name: 'Blazor',
-          level: 85,
+          level: 75,
           experience: '1+ years',
           description: 'Full-stack web development with C# and .NET',
           projects: ['Jukskei Tournament System'],
@@ -90,8 +90,8 @@ const Skills = () => {
         },
         {
           name: 'TensorFlow',
-          level: 60,
-          experience: '6 months',
+          level: 50,
+          experience: '2 months',
           description: 'Machine learning and AI model development',
           projects: ['AI Fatigue Detection System'],
           certifications: [],
@@ -99,8 +99,8 @@ const Skills = () => {
         },
         {
           name: 'OpenCV',
-          level: 65,
-          experience: '6 months',
+          level: 50,
+          experience: '2 months',
           description: 'Computer vision and image processing',
           projects: ['AI Fatigue Detection System'],
           certifications: [],
@@ -142,7 +142,7 @@ const Skills = () => {
         },
         {
           name: 'Fusion 360',
-          level: 70,
+          level: 20,
           experience: '1+ years',
           description: '3D modeling and design for hardware projects',
           projects: ['AI Fatigue Detection Case Design'],
@@ -152,7 +152,7 @@ const Skills = () => {
         {
           name: 'Office 365',
           level: 85,
-          experience: '3+ years',
+          experience: '5+ years',
           description: 'Documentation, presentations, and productivity',
           projects: ['Project Documentation', 'Academic Work'],
           certifications: [],
@@ -258,14 +258,14 @@ const Skills = () => {
     },
     {
       phase: 'Web Development',
-      period: 'Mid 2024',
+      period: '2024 to Present',
       status: 'completed',
       skills: ['JavaScript', 'React', 'Blazor', 'REST APIs'],
       description: 'Expanded into full-stack web development'
     },
     {
       phase: 'Advanced Topics',
-      period: 'Late 2024 - Present',
+      period: '2025 - Present',
       status: 'active',
       skills: ['AI/ML', 'Computer Vision', 'IoT', 'Advanced Architecture'],
       description: 'Currently exploring cutting-edge technologies'
@@ -402,7 +402,7 @@ const Skills = () => {
         <div className="skills-stats">
           <div className="stats-grid">
             <div className="stat-card">
-              <div className="stat-number">20+</div>
+              <div className="stat-number">10+</div>
               <div className="stat-label">Technologies</div>
             </div>
             <div className="stat-card">
@@ -410,7 +410,7 @@ const Skills = () => {
               <div className="stat-label">Years Coding</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number">5+</div>
+              <div className="stat-number">3+</div>
               <div className="stat-label">Active Projects</div>
             </div>
             <div className="stat-card">

@@ -40,7 +40,7 @@ const Home = () => {
               <ul className="profile-details">
                 <li>🎓 Bachelor of Computing in Software Engineering at Belgium Campus iTversity</li>
                 <li>💻 Proficient in C#, JavaScript, React, SQL, and Blazor</li>
-                <li>🏆 Maintaining a 78% average with distinction</li>
+                <li>🏆 Currently passing with distinction at Belgium Campus</li>
                 <li>🎯 Currently seeking internship or entry-level opportunities</li>
                 <li>📍 Based in Gauteng, South Africa</li>
                 <li>📧 Contact: janconieuwoudt.werk@gmail.com</li>

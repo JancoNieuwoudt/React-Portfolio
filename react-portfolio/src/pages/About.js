@@ -84,19 +84,13 @@ const About = () => {
               <div className="about-card">
                 <h2>Professional Summary</h2>
                 <p>
-                  I'm currently pursuing a Bachelor of Computing in Software Engineering at Belgium Campus iTversity, 
-                  maintaining a 78% average. I'm actively seeking an internship or entry-level role that will allow me to 
-                  apply my skills in real-world projects while continuing to grow professionally.
+                  I’m a Software Engineering student at Belgium Campus iTversity, currently passing with distinction and actively pursuing internship or entry-level opportunities. I have hands-on experience with technologies like React, Blazor, C#, JavaScript, SQL, HTML, and CSS, and I’m currently applying core software engineering principles in a mentored industry project focused on design, development, and version control.
                 </p>
                 <p>
-                  My passion for problem-solving through technology began with a strong foundation in Mathematics, 
-                  Physics, and CAT. As a former head council member at Hoërskool Jeugland, I developed valuable leadership, 
-                  organization, and communication skills that continue to shape my approach to software development.
+                  With a strong foundation in Mathematics, Physics, and CAT, I approach challenges with analytical thinking and a problem-solving mindset. My experience as a former head council member at Hoërskool Jeugland sharpened my leadership, communication, and organizational skills—traits I carry into every collaborative environment.
                 </p>
                 <p>
-                  I'm driven by a commitment to building innovative, user-focused solutions and tackling real-world 
-                  challenges with code. Outside of tech, I represent South Africa as a Springbok Jukskei player, which has 
-                  instilled in me discipline, teamwork, and perseverance — all qualities I bring to the software world.
+                  Outside of tech, I represent South Africa as a Springbok Jukskei player. Competing nationally has instilled in me discipline, resilience, and teamwork, all of which drive my commitment to building innovative, user-focused solutions in the software world.
                 </p>
               </div>
 
