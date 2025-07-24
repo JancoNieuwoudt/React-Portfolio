@@ -37,6 +37,24 @@ const Skills = () => {
           color: '#3776ab'
         },
         {
+          name: 'SQL',
+          level: 80,
+          experience: '2+ years',
+          description: 'Database design, queries, and data management',
+          projects: ['Tournament Management', 'Data Analysis'],
+          certifications: [],
+          color: '#e67e22'
+        },
+        {
+          name: 'C++',
+          level: 60,
+          experience: '6 months',
+          description: 'Basic algorithms, hardware interfacing, and academic projects',
+          projects: ['TinkerCAD Simulations', 'University Assignments'],
+          certifications: [],
+          color: '#00599C'
+        },
+        {
           name: 'Java',
           level: 60,
           experience: '1+ years',
@@ -45,15 +63,6 @@ const Skills = () => {
           certifications: [],
           color: '#ed8b00'
         },
-        {
-          name: 'SQL',
-          level: 80,
-          experience: '2+ years',
-          description: 'Database design, queries, and data management',
-          projects: ['Tournament Management', 'Data Analysis'],
-          certifications: [],
-          color: '#e67e22'
-        }
       ]
     },
     frameworks: {
@@ -90,7 +99,7 @@ const Skills = () => {
         },
         {
           name: 'TensorFlow',
-          level: 50,
+          level: 20,
           experience: '2 months',
           description: 'Machine learning and AI model development',
           projects: ['AI Fatigue Detection System'],
@@ -99,7 +108,7 @@ const Skills = () => {
         },
         {
           name: 'OpenCV',
-          level: 50,
+          level: 20,
           experience: '2 months',
           description: 'Computer vision and image processing',
           projects: ['AI Fatigue Detection System'],
@@ -141,13 +150,13 @@ const Skills = () => {
           color: '#333'
         },
         {
-          name: 'Fusion 360',
-          level: 20,
-          experience: '1+ years',
-          description: '3D modeling and design for hardware projects',
-          projects: ['AI Fatigue Detection Case Design'],
+          name: 'TinkerCAD',
+          level: 60,
+          experience: '6 months',
+          description: 'Circuit simulation and hardware prototyping',
+          projects: ['Hardware Simulations', 'Academic Projects'],
           certifications: [],
-          color: '#ff6600'
+          color: '#17bebb'
         },
         {
           name: 'Office 365',
