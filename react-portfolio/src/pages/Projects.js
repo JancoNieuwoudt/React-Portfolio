@@ -34,7 +34,7 @@ const Projects = () => {
       subtitle: 'Blazor Web Application',
       description: 'Currently developing a Blazor-based web app to automate tournament creation, round-robin pairings, and real-time score tracking for Jukskei. Replaced manual Excel score sheets with a dynamic solution for players and organizers.',
       longDescription: 'A comprehensive tournament management system built with modern web technologies. This application streamlines the entire tournament process from registration to final results, eliminating the need for manual scoring and paperwork.',
-      technologies: ['Blazor', 'C#', '.NET', 'Swagger', 'SQL Server', 'SignalR'],
+      technologies: ['Blazor', 'C#', '.NET', 'Swagger', 'SQL Server'],
       status: 'Active Development',
       category: 'personal',
       startDate: '2025',
@@ -89,7 +89,6 @@ const Projects = () => {
       startDate: '2025',
       image: '/images/portfolio-site.jpg',
       githubUrl: 'https://github.com/JancoNieuwoudt/react-portfolio',
-      liveUrl: '#',
       features: [
         'GitHub-inspired design',
         'Responsive layout',
@@ -101,6 +100,33 @@ const Projects = () => {
         'Design system consistency',
         'Performance optimization',
         'Cross-browser compatibility'
+      ]
+    },
+    {
+      id: 5,
+      title: 'Beacon',
+      subtitle: 'Zip Archive Scanner',
+      description: 'Proof-of-concept submitted zip archive scanner, which tests for common attack vectors. (lil uni assignment)',
+      longDescription: 'Beacon is a proof-of-concept zip archive scanner designed to detect common security threats in submitted files. It identifies unexpected file types, unusually large uncompressed files, suspicious JavaScript code (obfuscation, malformed syntax, unsafe functions), and basic file encryption. The tool supports plugin-based expansions for additional tests, allowing runtime registration of custom checks. Workspace context helps tailor scans to specific project types.',
+      technologies: ['C#', '.NET', 'Winforms'],
+      status: 'Completed',
+      category: 'academic',
+      startDate: '2024',
+      image: '/images/portfolio-site.jpg',
+      githubUrl: 'https://github.com/JancoNieuwoudt/beacon',
+      features: [
+        'File Type Detection',
+        'Compression Ratio Analysis',
+        'JavaScript Code Analysis',
+        'Basic Encryption Detection',
+        'Plugin System'
+      ],
+      challenges: [
+        'Thread-Safe UI Updates',
+        'Memory Leaks from Unmanaged Resources',
+        'Dynamic Test Loading & Plugin Management',
+        'WinForms Styling Quirks',
+        'State Management Complexity'
       ]
     }
   ];

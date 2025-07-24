@@ -53,13 +53,6 @@ const Contact = () => {
       primary: true
     },
     {
-      icon: '📱',
-      title: 'Phone',
-      value: '+27 73 450 5075',
-      description: 'Available for calls during business hours',
-      link: 'tel:+27734505075'
-    },
-    {
       icon: '💼',
       title: 'LinkedIn',
       value: 'linkedin.com/in/janco-nieuwoudt',
@@ -179,7 +172,7 @@ const Contact = () => {
                   <span className="availability-icon">🕒</span>
                   <div>
                     <h4>Availability</h4>
-                    <p>Immediate start available</p>
+                    <p>2026 Internship</p>
                     <small>Currently completing final year of studies</small>
                   </div>
                 </div>
@@ -187,7 +180,7 @@ const Contact = () => {
                   <span className="availability-icon">💼</span>
                   <div>
                     <h4>Work Preference</h4>
-                    <p>Full-time, Part-time, Internship</p>
+                    <p>Internship Opportunity</p>
                     <small>Flexible and eager to contribute</small>
                   </div>
                 </div>

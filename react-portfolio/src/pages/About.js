@@ -94,6 +94,25 @@ const About = () => {
                 </p>
               </div>
 
+              <div className="experience-section">
+                <h3>Work Experience</h3>
+                <div className="experience-item">
+                  <div className="experience-header">
+                    <h4>Software Development Trainee (Mentored Project)</h4>
+                    <span className="experience-period">2025 - Present</span>
+                  </div>
+                  <div className="experience-description">
+                    <p>
+                      Collaborated with two alumni mentors, now industry professionals, to develop 
+                      a software solution adhering to professional standards. This experience provided 
+                      valuable insight into industry best practices, including software design, development, 
+                      and version control, while enhancing my technical and problem-solving skills bridging 
+                      academic knowledge with real-world applications.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
               <div className="languages-card">
                 <h2>Languages</h2>
                 <div className="languages-list">
@@ -186,6 +205,32 @@ const About = () => {
 
           {activeTab === 'education' && (
             <div className="education-section">
+              <div className="current-learning">
+                <h3>Currently Learning</h3>
+                <div className="learning-items">
+                  <div className="learning-item">
+                    <span className="learning-icon">🤖</span>
+                    <div>
+                      <strong>AI & Machine Learning</strong>
+                      <p>Computer vision, TensorFlow, OpenCV</p>
+                    </div>
+                  </div>
+                  <div className="learning-item">
+                    <span className="learning-icon">🌐</span>
+                    <div>
+                      <strong>Advanced Web Development</strong>
+                      <p>Modern React patterns, state management</p>
+                    </div>
+                  </div>
+                  <div className="learning-item">
+                    <span className="learning-icon">📱</span>
+                    <div>
+                      <strong>IoT Development</strong>
+                      <p>Raspberry Pi, sensor integration</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="education-item current">
                 <div className="education-header">
                   <h3>Belgium Campus iTversity</h3>
@@ -219,33 +264,6 @@ const About = () => {
                   </div>
                 </div>
               </div>
-
-              <div className="current-learning">
-                <h3>Currently Learning</h3>
-                <div className="learning-items">
-                  <div className="learning-item">
-                    <span className="learning-icon">🤖</span>
-                    <div>
-                      <strong>AI & Machine Learning</strong>
-                      <p>Computer vision, TensorFlow, OpenCV</p>
-                    </div>
-                  </div>
-                  <div className="learning-item">
-                    <span className="learning-icon">🌐</span>
-                    <div>
-                      <strong>Advanced Web Development</strong>
-                      <p>Modern React patterns, state management</p>
-                    </div>
-                  </div>
-                  <div className="learning-item">
-                    <span className="learning-icon">📱</span>
-                    <div>
-                      <strong>IoT Development</strong>
-                      <p>Raspberry Pi, sensor integration</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           )}
 
@@ -259,25 +277,6 @@ const About = () => {
                     <p>{achievement.description}</p>
                   </div>
                 ))}
-              </div>
-
-              <div className="experience-section">
-                <h3>Work Experience</h3>
-                <div className="experience-item">
-                  <div className="experience-header">
-                    <h4>Software Development Trainee (Mentored Project)</h4>
-                    <span className="experience-period">2025 - Present</span>
-                  </div>
-                  <div className="experience-description">
-                    <p>
-                      Collaborated with two alumni mentors, now industry professionals, to develop 
-                      a software solution adhering to professional standards. This experience provided 
-                      valuable insight into industry best practices, including software design, development, 
-                      and version control, while enhancing my technical and problem-solving skills bridging 
-                      academic knowledge with real-world applications.
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
           )}

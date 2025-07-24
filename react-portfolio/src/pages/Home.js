@@ -7,32 +7,28 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="home-content">
-        {/* Profile Section */}
         <div className="profile-section">
-          {/* Profile Image */}
           <div className="profile-image-container">
             <img 
               src="/react-portfolio/images/me.jpg"
               alt="Profile"
               className="profile-image"
             />
+            <div className="card-header">
+                <h1>Janco Nieuwoudt</h1>
+                <div className="profile-subtitle">Software Engineering Student</div>
+              </div>
             <button className="edit-profile-btn">
               View CV
             </button>
           </div>
-
-          {/* Profile Info */}
           <div className="profile-info">
-            {/* Main README Card */}
             <div className="profile-card">
-              <div className="card-header">
-                <h1>Janco Nieuwoudt</h1>
-                <div className="profile-subtitle">Software Engineering Student</div>
-              </div>
-              
+              <small class="readme" >JancoNieuwoudt/README.md</small>
+              <h1 class="profile-header"> Hi 👋</h1>
               <div className="profile-bio">
                 <p>
-                  Motivated and detail-oriented Software Engineering student passionate about clean code, 
+                  I am motivated and detail-oriented Software Engineering student passionate about clean code, 
                   real-world problem solving, and continuous growth. <strong>Evolving with every commit.</strong>
                 </p>
               </div>

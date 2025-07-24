@@ -64,7 +64,7 @@ const Header = () => {
           </button>
           <div className="profile-image-container">
             <img 
-              src="/images/me.jpg"
+              src="/react-portfolio/images/hac.jpg"
               alt="Profile"
               className="profile-image"
             />
