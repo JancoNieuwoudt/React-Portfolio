@@ -419,25 +419,6 @@ const Skills = () => {
             </div>
           </div>
         </div>
-
-        {/* Call to Action */}
-        <div className="skills-cta">
-          <div className="cta-content">
-            <h2>Ready to Apply These Skills</h2>
-            <p>
-              I'm constantly learning and expanding my technical expertise. 
-              Let's discuss how these skills can contribute to your next project.
-            </p>
-            <div className="cta-buttons">
-              <a href="/contact" className="cta-btn primary">
-                Get In Touch
-              </a>
-              <a href="/projects" className="cta-btn secondary">
-                View My Projects
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

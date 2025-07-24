@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -18,17 +19,28 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // In a real application, you would send this data to a server
+  setFormStatus('Sending...');
+  
+  try {
+    await emailjs.send(
+      'PortfolioEmail',      
+      'ContactMe',     
+      {
+        from_name: formData.name,
+        from_email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+      },
+      'qdAA-WGNws5Xj4Nl-'      
+    );
+    
     setFormStatus('Thank you for your message! I\'ll get back to you soon.');
-    // Reset form
-    setFormData({
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
-    });
+    setFormData({ name: '', email: '', subject: '', message: '' });
+  } catch (error) {
+    setFormStatus('Sorry, there was an error. Please try emailing me directly.');
+  }
   };
 
   const contactMethods = [
@@ -268,25 +280,6 @@ const Contact = () => {
                   For urgent matters, please feel free to call or connect on LinkedIn.
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Call to Action */}
-        <div className="contact-cta">
-          <div className="cta-content">
-            <h2>Ready to Work Together?</h2>
-            <p>
-              I'm passionate about creating innovative solutions and always eager to take on new challenges. 
-              Let's discuss how I can contribute to your team or project.
-            </p>
-            <div className="cta-buttons">
-              <a href="mailto:janconieuwoudt.werk@gmail.com" className="cta-btn primary">
-                Get In Touch
-              </a>
-              <a href="/cv.pdf" download className="cta-btn secondary">
-                Download CV
-              </a>
             </div>
           </div>
         </div>
