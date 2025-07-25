@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPowerOff } from '@fortawesome/free-solid-svg-icons';
 import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
@@ -15,18 +17,9 @@ const Header = () => {
       {/* Main Header */}
       <div className="main-header">
         <div className="left-section">
-          <button className="menu-button">
-            <div className="hamburger">
-              <div className="hamburger-line"></div>
-              <div className="hamburger-line"></div>
-              <div className="hamburger-line"></div>
-            </div>
-          </button>
+          
           <Link to="/" className="portfolio-logo">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2L2 7V10C2 16 6 20.5 12 22C18 20.5 22 16 22 10V7L12 2Z" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M9 12L11 14L15 10" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
+            <FontAwesomeIcon icon={faPowerOff} style={{color: '#ffffffff' }} />
           </Link>
           <span className="username">JancoNieuwoudt</span>
         </div>

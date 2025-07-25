@@ -33,20 +33,6 @@
   background-color: #30363d;
 }
 
-.hamburger {
-  width: 14px;
-  height: 14px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.hamburger-line {
-  height: 1.5px;
-  background-color: white;
-  width: 14px;
-}
-
 .portfolio-logo {
   color: white;
   display: flex;
@@ -64,7 +50,7 @@
 
 .username {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .search-section {
