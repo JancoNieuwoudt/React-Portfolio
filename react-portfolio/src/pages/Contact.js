@@ -45,12 +45,20 @@ const Contact = () => {
 
   const contactMethods = [
     {
+      icon: '📄',
+      title: 'CV',
+      value: 'Download my CV',
+      description: 'A formal version of the content on this page',
+      link: '/cv.pdf',
+      primary: true
+    },
+    {
       icon: '📧',
       title: 'Email',
       value: 'janconieuwoudt.werk@gmail.com',
       description: 'Best for detailed inquiries and formal communication',
       link: 'mailto:janconieuwoudt.werk@gmail.com',
-      primary: true
+      primary: false
     },
     {
       icon: '💼',
@@ -123,6 +131,7 @@ const Contact = () => {
                   className={`contact-method ${method.primary ? 'primary' : ''}`}
                   target={method.external ? '_blank' : '_self'}
                   rel={method.external ? 'noopener noreferrer' : ''}
+                  {...(method.title === 'CV' ? { download: true } : {})}
                 >
                   <div className="method-icon">{method.icon}</div>
                   <div className="method-details">

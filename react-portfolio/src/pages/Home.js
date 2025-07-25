@@ -19,7 +19,7 @@ const Home = () => {
                 <div className="profile-subtitle">Software Engineering Student</div>
               </div>
             <button className="edit-profile-btn">
-              View CV
+              <a href="/cv.pdf" download style={{textDecoration:"none", color:"white"}}>View CV</a>
             </button>
           </div>
           <div className="profile-info">
