@@ -30,7 +30,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "latest"
   },
-  "homepage": "http://JancoNieuwoudt.github.io/Janco-Nieuwoudt",
+  "homepage": "https://JancoNieuwoudt.github.io/Janco-Nieuwoudt",
   "browserslist": {
     "production": [
       ">0.2%",
