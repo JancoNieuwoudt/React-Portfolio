@@ -81,7 +81,7 @@ const Contact = () => {
   const opportunities = [
     {
       title: 'Internship Opportunities',
-      description: 'Seeking internships in software development, web development, or related fields',
+      description: 'Seeking internships in software development, or related fields',
       icon: '🎯'
     },
     {
