@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Janco-Nieuwoudt/static/css/main.4ce40d88.css",
-    "main.js": "/Janco-Nieuwoudt/static/js/main.ace242a6.js",
+    "main.css": "/Janco-Nieuwoudt/static/css/main.54f6f963.css",
+    "main.js": "/Janco-Nieuwoudt/static/js/main.1ead00f0.js",
     "index.html": "/Janco-Nieuwoudt/index.html",
-    "main.4ce40d88.css.map": "/Janco-Nieuwoudt/static/css/main.4ce40d88.css.map",
-    "main.ace242a6.js.map": "/Janco-Nieuwoudt/static/js/main.ace242a6.js.map"
+    "main.54f6f963.css.map": "/Janco-Nieuwoudt/static/css/main.54f6f963.css.map",
+    "main.1ead00f0.js.map": "/Janco-Nieuwoudt/static/js/main.1ead00f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ce40d88.css",
-    "static/js/main.ace242a6.js"
+    "static/css/main.54f6f963.css",
+    "static/js/main.1ead00f0.js"
   ]
 }
