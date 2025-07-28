@@ -48,7 +48,7 @@ function Footer() {
                 <div className="footer-section">
                     <h4>Resources</h4>
                     <ul className="footer-links">
-                        <li><a href="/cv.pdf" download>Download CV</a></li>
+                        <li><a href={process.env.PUBLIC_URL + "/cv.pdf"} download>Download CV</a></li>
                     </ul>
                 </div>
             </div>

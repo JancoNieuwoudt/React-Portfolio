@@ -57,7 +57,7 @@ const Header = () => {
           </button>
           <div className="profile-image-container">
             <img 
-              src="/react-portfolio/images/hac.jpg"
+              src={process.env.PUBLIC_URL + "/images/hac.jpg"}
               alt="Profile"
               className="profile-image"
             />

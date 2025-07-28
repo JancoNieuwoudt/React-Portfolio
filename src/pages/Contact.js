@@ -49,7 +49,7 @@ const Contact = () => {
       title: 'CV',
       value: 'Download my CV',
       description: 'A formal version of the content on this page',
-      link: '/cv.pdf',
+      link: process.env.PUBLIC_URL + "/cv.pdf",
       primary: true
     },
     {

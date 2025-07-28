@@ -10,7 +10,7 @@ const Home = () => {
         <div className="profile-section">
           <div className="profile-image-container">
             <img 
-              src="/react-portfolio/images/me.jpg"
+              src={process.env.PUBLIC_URL + "/images/me.jpg"}
               alt="Profile"
               className="profile-image"
             />
@@ -19,7 +19,7 @@ const Home = () => {
                 <div className="profile-subtitle">Software Engineering Student</div>
               </div>
             <button className="edit-profile-btn">
-              <a href="/cv.pdf" download style={{textDecoration:"none", color:"white"}}>View CV</a>
+                <a href={process.env.PUBLIC_URL + "/cv.pdf"} download style={{textDecoration:"none", color:"white"}}>View CV</a>
             </button>
           </div>
           <div className="profile-info">
