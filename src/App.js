@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 
 function App() {
     return (
-        <Router basename="/react-portfolio">
+        <Router basename="/Janco-Nieuwoudt">
             <div className="App">
                 <Header />
                 <Switch>
