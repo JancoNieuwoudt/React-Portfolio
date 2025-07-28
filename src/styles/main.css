@@ -2351,3 +2351,45 @@ body {
     padding: 1rem;
   }
 }
+
+/* Hide desktop-only elements on mobile */
+.desktop-only {
+  display: block;
+}
+.burger-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .desktop-only {
+    display: none;
+  }
+  .burger-menu-btn {
+    display: block;
+  }
+  .navbar-container {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #222;
+    z-index: 100;
+  }
+  .navbar-container.open {
+    display: block;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-link {
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+  }
+}
